@@ -1,0 +1,10 @@
+<!-- This is a placeholder. Replace profile-picture.jpg with your actual profile image -->
+<!-- You can use any image format: .jpg, .png, .webp, etc. -->
+<!-- Recommended size: 300x300 pixels or higher for best quality -->
+
+<!-- To add your profile picture:
+1. Save your profile image as "profile-picture.jpg" in this folder
+2. Or update the src attribute in index.html to match your image filename
+-->
+
+<!-- If you don't have a profile picture yet, the JavaScript will show a default avatar -->

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahela Abeyrathna - Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Fantasy Video Background -->
+    <div class="video-background">
+        <video id="backgroundVideo" loop muted autoplay>
+            <source src="fantasy-background.mp4" type="video/mp4">
+            <source src="fantasy-background.webm" type="video/webm">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <!-- Animated Fantasy Elements -->
+    <div class="fantasy-effects">
+        <div class="floating-particles"></div>
+        <div class="mystical-orbs"></div>
+        <div class="cosmic-dust"></div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop autoplay>
+        <source src="pussypodium (Slowed).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Music Control Button -->
+    <div class="music-control">
+        <button id="musicToggle" class="music-btn">
+            <i class="fas fa-music"></i>
+        </button>
+        <div class="volume-control">
+            <button id="volumeBtn" class="volume-btn">
+                <i class="fas fa-volume-up"></i>
+            </button>
+            <div class="volume-slider-container">
+                <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="30">
+                <div class="volume-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <div class="profile-image">
+                <img src="Profile_photo.jpg" alt="Profile Picture" id="profileImg">
+            </div>
+            <h1 class="name">Mahela Abeyrathna</h1>
+            <p class="bio">
+                A passionate developer and creative enthusiast. 
+                Building amazing experiences and connecting with the world through technology.
+                Welcome to my digital space!
+            </p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://github.com/Mahela122" class="social-card github" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            
+            <a href="https://www.instagram.com/mahela._.23?igsh=MW9ld2xyamFsam1haA%3D%3D&utm_source=qr" class="social-card instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            
+            <a href="https://www.facebook.com/share/1BSCzTgY2p/?mibextid=wwXIfr" class="social-card facebook" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+            </a>
+            
+            <a href="https://t.me/zxzzwolfa" class="social-card telegram" target="_blank">
+                <i class="fab fa-telegram-plane"></i>
+                <span>Telegram</span>
+            </a>
+            
+            <a href="https://steamcommunity.com/id/zxxNaksu/" class="social-card steam" target="_blank">
+                <i class="fab fa-steam"></i>
+                <span>Steam</span>
+            </a>
+            
+            <a href="https://open.spotify.com/user/312u4zej5n5zk3o5duydb4x46tze?si=y5QPX8GPRRGKGPf7_xapbw" class="social-card spotify" target="_blank">
+                <i class="fab fa-spotify"></i>
+                <span>Spotify</span>
+            </a>
+            
+            <a href="https://store.epicgames.com/u/A_WOLFA" class="social-card epic" target="_blank">
+                <i class="fas fa-gamepad"></i>
+                <span>Epic Games</span>
+            </a>
+            
+            <a href="https://x.com/mahela_23?s=21" class="social-card twitter" target="_blank">
+                <i class="fab fa-twitter"></i>
+                <span>X</span>
+            </a>
+            
+            <a href="https://www.reddit.com/user/Friendly_Rub_306/" class="social-card reddit" target="_blank">
+                <i class="fab fa-reddit-alien"></i>
+                <span>Reddit</span>
+            </a>
+            
+            <a href="https://www.tiktok.com/@a_wolfa_?_t=ZS-8zTCCknmFCJ&_r=1" class="social-card tiktok" target="_blank">
+                <i class="fab fa-tiktok"></i>
+                <span>TikTok</span>
+            </a>
+            
+            <a href="https://www.threads.com/@mahela._.23?igshid=NTc4MTIwNjQ2YQ==" class="social-card threads" target="_blank">
+                <svg class="threads-logo" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                    <path fill="currentColor" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4c1.1 0 2.1-.45 2.83-1.17L13.41 13.41c-.39.39-.9.59-1.41.59-1.1 0-2-.9-2-2s.9-2 2-2c.51 0 1.02.2 1.41.59l1.42-1.42C14.1 8.45 13.1 8 12 8z"/>
+                </svg>
+                <span>Threads</span>
+            </a>
+            
+            <a href="https://discord.gg/hmuPXFTS" class="social-card discord" target="_blank">
+                <i class="fab fa-discord"></i>
+                <span>Discord</span>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2025 Mahela Abeyrathna. Made with ❤️</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
